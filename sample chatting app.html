@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatVerse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="chat-header">
+            <div class="logo">
+                <h1>ChatVerse</h1>
+            </div>
+            <button class="theme-toggle">🌙</button>
+        </header>
+        <div class="chat-container">
+            <div class="sidebar">
+                <div class="user-profile">
+                    <img src="https://via.placeholder.com/50" alt="User Avatar" class="avatar">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                        <span>Online</span>
+                    </div>
+                </div>
+                <div class="chat-rooms">
+                    <div class="chat-room">General Chat</div>
+                    <div class="chat-room">Tech Talk</div>
+                    <div class="chat-room">Random</div>
+                </div>
+            </div>
+            <div class="main-chat">
+                <div class="messages">
+                    <!-- Messages will appear here -->
+                </div>
+                <div class="message-input">
+                    <input type="text" id="messageInput" placeholder="Type a message..." />
+                    <button id="sendMessage">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
